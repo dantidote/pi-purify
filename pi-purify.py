@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from gpiozero import DigitalOutputDevice
 import flask
 from flask import request
