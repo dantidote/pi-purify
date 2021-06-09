@@ -1,0 +1,8 @@
+[Unit]
+Description=pi-purify
+
+[Service]
+ExecStart=/usr/local/bin/pi-purify.py
+
+[Install]
+WantedBy=multi-user.target
